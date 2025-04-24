@@ -56,7 +56,6 @@ class LoginActivity : AppCompatActivity() {
         }
 
         tvRegister.setOnClickListener {
-            // Pindah ke RegisterActivity jika belum punya akun
             startActivity(Intent(this@LoginActivity, RegisterActivity::class.java))
         }
     }
